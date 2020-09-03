@@ -1,0 +1,54 @@
+{
+  "account": {
+    "account": [
+      {
+        "acc_number": "000000001",
+        "amount": "3000",
+        "currency": "EUR"
+      },
+      {
+        "acc_number": "000000002",
+        "amount": "40",
+        "currency": "EUR"
+      },
+      {
+        "acc_number": "000000003",
+        "amount": "10",
+        "currency": "EUR"
+      }
+    ],
+    "link": {
+      "self": "/accounts?page=1",
+      "next": "/accounts?page=2"
+    }
+  },
+  "transactions": {
+    "transactions": [
+      {
+        "id": 1,
+        "label": "label 1",
+        "sign": "DBT",
+        "amount": "30",
+        "currency": "EUR"
+      },
+      {
+        "id": 2,
+        "label": "label 2",
+        "sign": "DBT",
+        "amount": "10",
+        "currency": "EUR"
+      },
+      {
+        "id": 3,
+        "label": "label 3",
+        "sign": "DBT",
+        "amount": "15",
+        "currency": "EUR"
+      }
+    ],
+    "link": {
+      "self": "/accounts/000000001/transactions?page=1",
+      "next": "/accounts/000000001/transactions?page=2"
+    }
+  }
+}
