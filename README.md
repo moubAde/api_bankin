@@ -12,7 +12,7 @@ This is an API used for Bankin technical test
 
 - [Node JS](https://nodejs.org/fr/about/)
 - [express](https://www.npmjs.com/package/express)
-- [mocha](#https://mochajs.org/)
+- [mocha](https://mochajs.org/)
 - [chai](https://www.chaijs.com/)
 - [nodemon](https://www.npmjs.com/package/nodemon)
 
